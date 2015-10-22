@@ -1,0 +1,178 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same
+% directory as this .tex file. These files provide the resume style and themes
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%  PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,letterpaper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{grey} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%  NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Simon} % Your first name
+\familyname{Garnier} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+%\title{}
+\address{562, rue Théodore}{Montréal, Québec H1V3A9}
+\mobile{514 462 6410}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+\email{simongarnierg@gmail.com}
+\homepage{github.com/simongarnier}{github.com/simongarnier} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\homepagebis{linkedin.com/in/simongarnierg}{linkedin.com/in/simongarnierg}
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%  EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Formation}
+
+\cventry{2012--Présent}{Baccalauréat en Informatique et génie locigiel}{\newline Université du québec à Montréal}{}{}{}
+\cventry{2011}{DEC en Technique d’Intégration Multimédia}{\newline Collège de Maisonneuve}{Montréal}{}{}
+
+
+%----------------------------------------------------------------------------------------
+%  WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Expérience}
+
+%------------------------------------------------
+\cventry{2015}{Développeur d'applications mobiles}{}{Greencopper, Montréal}{}{
+  \begin{itemize}
+    \item[-] Développement d'applications IOS et Android natives à l'aide du framework de Greencopper
+    \item[-] Écriture de script python permettant l'import de données clients
+    \item[-] Développement d'un utilitaire d'analyse donnant de la valeur au logs d'application
+  \end{itemize}
+}
+
+\cventry{2014--2015}{Développeur backend et frontend}{}{Seevibes, Montréal}{}{
+  \begin{itemize}
+    \item[-] Ajout de fonctionnalité à une application Ruby on Rails
+    \item[-] Travail sur un moteur développé en Scala
+    \item[-] Manipulation de jeux de données massifs
+    \item[-] Déploiement de code sur des machines EC2
+  \end{itemize}
+}
+
+\cventry{2012}{Programmeur web}{}{K3 média, Montréal}{}{
+  \begin{itemize}
+    \item[-] Développement backend en PHP
+    \item[-] Apprentissage du gestionnaire de contenu développé en open source par K3
+    \item[-] Développement d’une application Facebook utilisant l’API PHP
+  \end{itemize}
+}
+
+
+
+%------------------------------------------------
+\section{Other Experiences}
+\cventry{2013}{Messager à vélo}{}{Les Messagerie du Grand Montréal}{}{
+  Messager à vélo sous-contractant
+}
+
+%------------------------------------------------
+
+\cventry{2008--2012}{Agent de terrain}{}{plusieurs festivals à Montréal}{}{
+  Entretien et acceuil sur des sites évenementiels
+  \newline
+  (Piknic Électronik, Igloofest, Montreal Jazz Fest, Francofolies)
+}
+
+%\newpage
+%----------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%  COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\section{Connaissances techniques}
+
+  \cvitem{Langages}{Ruby, Python, Javascript, Scala, Java, C, Objective-C, C++, PHP, HTML + CSS}
+
+  \cvitem{DBMSs}{PostgreSQL, MongoDB, Redis, Elasticsearch}
+
+  \cvitem{Services}{Github, Amazon EC2}
+
+
+%----------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%  SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{General skills}
+
+  \cvlistitem{Facilité à travailler en équipe et à communiquer avec des collègues.}
+  \cvlistitem{Compréhension et intégration rapide de nouvelles compétences et concepts.}
+  \cvlistitem{Aime relever de nouveaux défis.}
+
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%  INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Intérêt}
+
+
+%  \cvlistitem{Vélo, photographie, cinéma et cuisine.}
+%----------------------------------------------------------------------------------------
+%  COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Departmnet}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
