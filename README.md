@@ -1,1 +1,1 @@
-# resume
+# Simon Garnier's resume
